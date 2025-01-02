@@ -5,8 +5,8 @@ void mergeStrings(const char *str1, const char *str2, FILE *outputFile) {
     int i = 0, j = 0;
     int len1 = strlen(str1), len2 = strlen(str2);
     while (i < len1 && j < len2) {
-        fputc(str1[i], outputFile); // Write char from str1
-        fputc(str2[j], outputFile); // Write char from str2
+        fputc(str1[i], outputFile); 
+        fputc(str2[j], outputFile); 
         i++;
         j++;
     }
